@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">RevoU Portofolio✨</div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#our-profile">Our Profile</a>
+      <a href="#our-hq">Our HeadQuarters</a>
+      <a href="#message">Contact Us</a>
+    </nav>
+  </header>
+
+  <main id="home" class="container">
+
+    <section class="banner">
+      <div class="banner-text">
+        <img src="img/dr-ratio.jpeg" alt="">
+        <h1>Hello <span id="welcomeName">There</span>‼️ Welcome To The Website😄</h1>
+        <p style="color: darkred; font-weight: 400; font-family: monospace;";">Fueled by passion, timed by precision.</p>
+      </div>
+    </section>
+
+    <section id="our-profile" class="profile">
+
+          <h1 style="font-size: xx-large; text-align: center;">Our Profile</h1>
+
+      </section>
+
+      <section class="about">
+        <div class="photo-banner" role="img" aria-label="Company photo banner"></div>
+      </section>
+
+      <section class="about">
+        <h2 style="font-size: xx-large; text-align: center;">About the Company</h2>
+        <p style="text-align: center;">
+          We’re a fan-built company turning Formula 1 passion into real-world products and experiences. 
+          From officially licensed apparel and premium collectibles to sim-racing setups and race-weekend hospitality, 
+          we curate everything with pit-stop precision: fast, reliable, and authentic. 
+          Our goal is simple—bring the grid closer, whether you’re watching at home or cheering from the grandstand.
+        </p>
+      </section>
+
+      <section class="about">
+        <h2>Vision</h2>
+        <ul class="bullets">
+          <li>Make the thrill of Formula 1 accessible, authentic, and unforgettable for every fan.</li>
+          <li>Build the most trusted F1 community and marketplace in the region.</li>
+          <li>Set the benchmark for speed, service, and storytelling in motorsport retail.</li>
+        </ul>
+
+        <h2>Mission</h2>
+        <ul class="bullets">
+          <li>Curate licensed gear, limited drops, and track-ready equipment with strict quality control.</li>
+          <li>Deliver “pit-stop fast” service: clear sizing help, quick dispatch, and responsive after-sales.</li>
+          <li>Grow a vibrant community through watch parties, sim-racing leagues, and paddock-level content.</li>
+          <li>Provide concierge planning for race travel—tickets, hotels, and on-ground support.</li>
+          <li>Operate transparently on pricing, taxes, and shipping, with easy returns and fair policies.</li>
+        </ul>
+      </section>
+    </section>
+
+    <section id="our-hq" class="hq">
+      <h2>Our Headquarter</h2>
+      <div class="hq-list">
+        <div class="hq-item">
+          <div class="avatar">
+            <img src="img/asakusa.png" alt="Asakusa HQ">
+          </div>
+          <div class="city">Asakusa</div>
+        </div>
+
+        <div class="hq-item">
+          <div class="avatar">
+            <img src="img/madrid.png" alt="madrid HQ">
+          </div>
+          <div class="city">Madrid</div>
+        </div>
+
+        <div class="hq-item">
+          <div class="avatar">
+            <img src="img/monaco.png" alt="monaco HQ">
+          </div>
+          <div class="city">Monaco</div>
+        </div>
+      </div> 
+    </section>
+
+    <section id="message" class="message">
+      <h2>Message Us</h2>
+      <div class="message-grid">
+        <form id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+            <small class="error" data-for="name"></small>
+          </div>
+
+          <div class="field">
+            <label for="birth">Birth Date</label>
+            <input id="birth" name="birth" type="date" required />
+            <small class="error" data-for="birth"></small>
+          </div>
+
+          <div class="field">
+            <label>Gender</label>
+            <div class="options">
+              <label><input type="radio" name="gender" value="Male" required /> Male</label>
+              <label><input type="radio" name="gender" value="Female" /> Female</label>
+            </div>
+            <small class="error" data-for="gender"></small>
+          </div>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+
+        <aside class="message-view">
+          <div class="muted" id="currentDate"></div>
+          <div id="submittedData" class="submitted">
+            <em>No data submitted yet.</em>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 @fthiannr — Fueled by passion, timed by precision 🏎️ 🏁</footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
